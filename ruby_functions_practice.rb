@@ -14,6 +14,10 @@ def multiply(num_1, num_2)
   return num_1 * num_2
 end
 
+def add_string_as_number(str_1, str_2)
+return str_1.to_i + str_2.to_i
+end
+
 def number_to_full_month_name(num_1)
 
     case num_1
