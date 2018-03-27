@@ -51,3 +51,12 @@ def number_to_full_month_name(num_1)
       return "December"
     end
 end
+
+
+def number_to_short_month_name(num_1)
+
+result = number_to_full_month_name(num_1)
+
+return result.slice(0..2)
+
+end
