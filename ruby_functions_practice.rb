@@ -2,6 +2,10 @@ def add(num_1, num_2)
   return num_1 + num_2
 end
 
+def subtract(num_1, num_2)
+  return num_1 - num_2
+end
+
 def number_to_full_month_name(num_1)
 
     case num_1
@@ -30,7 +34,4 @@ def number_to_full_month_name(num_1)
     when 12
       return "December"
     end
-  
-
-
 end
