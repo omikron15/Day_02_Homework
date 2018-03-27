@@ -65,3 +65,15 @@ end
 def length_of_string(str_1)
   return str_1.length
 end
+
+def fahrenheit_to_celsius(f_num)
+  return f_num + 32
+end
+
+def volume_of_sphere(radius)
+return ((4.0/3 * 3.14) * (radius ** 3)).round(2)
+end
+
+def volume_of_cube(length)
+  return length**3
+end
