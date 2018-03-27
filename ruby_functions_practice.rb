@@ -54,9 +54,14 @@ end
 
 
 def number_to_short_month_name(num_1)
+  result = number_to_full_month_name(num_1)
+  return result.slice(0..2)
+end
 
-result = number_to_full_month_name(num_1)
+def return_10()
+ return 10
+end
 
-return result.slice(0..2)
-
+def length_of_string(str_1)
+  return str_1.length
 end
