@@ -3,8 +3,7 @@ require( 'minitest/rg')
 require_relative( '../ruby_functions_practice' )
 
 
-#start of class
-#Comment 2
+#Start of class
 class Functions_Practice < MiniTest::Test
 
   def test_return_10()
@@ -67,9 +66,6 @@ class Functions_Practice < MiniTest::Test
     assert_equal( "Mar", third_month_string )
     assert_equal( "Sep", ninth_month_string )
   end
-
-
-
   #Further
 
   #Given the length of a side of a cube calculate the volume
@@ -88,7 +84,6 @@ class Functions_Practice < MiniTest::Test
   def test_fahrenheit_to_celsius()
     result = fahrenheit_to_celsius(10)
     assert_equal(42, result)
-  end
+  end # end of function
 
-
-end
+end # end of class
