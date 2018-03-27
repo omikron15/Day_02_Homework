@@ -4,6 +4,7 @@ require_relative( '../ruby_functions_practice' )
 
 
 #start of class
+#Comment 2
 class Functions_Practice < MiniTest::Test
 
   def test_return_10()
