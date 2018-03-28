@@ -63,7 +63,7 @@ def return_10()
 end
 
 def length_of_string(str_1)
-  return str_1.length
+  return str_1.length()
 end
 
 def fahrenheit_to_celsius(f_num)
