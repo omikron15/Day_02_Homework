@@ -81,6 +81,7 @@ class Functions_Practice < MiniTest::Test
   end
 
   #Given a value in farenheit, convert this into celsius.
+  #Code wrong - Math for function in second file is incorrect
   def test_fahrenheit_to_celsius()
     result = fahrenheit_to_celsius(10)
     assert_equal(42, result)
